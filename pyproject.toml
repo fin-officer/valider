@@ -13,7 +13,8 @@ packages = [{include = "valider"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 pydantic = "^2.0.0"
-invutil = {path = "../invutil", develop = true}
+# invutil should be installed separately or from PyPI
+# invutil = "^1.0.0"  # Uncomment and set the correct version if available on PyPI
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.0.0"
